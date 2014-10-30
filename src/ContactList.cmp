@@ -1,0 +1,21 @@
+<aura:component controller="BarnSwallow.ContactListController" implements="force:appHostable">
+    <aura:attribute name="contacts" type="Contact[]" />
+    <aura:handler name="init" action="{!c.doInit}" value="{!this}" />
+    <div>
+    	<ul >
+        	<aura:iteration items="{!v.contacts}" var="c">
+            	<li class="contactInfo">
+                	<div class="theheading">
+                    	<li>
+                            <img src="{!c.PhotoUrl}" />
+                            <h3>{!c.Name}</h3>
+                            <h2>{!c.Title}</h2>
+                        </li>
+                    </div>
+                    <p>{!c.Phone}</p>
+                    <p>{!c.Email}</p>
+                </li>
+            </aura:iteration>
+        </ul>
+    </div>
+</aura:component>
