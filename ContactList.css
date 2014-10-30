@@ -1,0 +1,48 @@
+.THIS {
+    background-color: #344A5F;
+    font-family:'Lucida Grande', 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', 'Meiryo', 'メイリオ', 'sans-serif';
+}
+
+.THIS .contactInfo {
+    background-color: #f5f5dc;
+    color: #717ECD;
+    margin-right: 70px;
+}
+
+.THIS h2 {
+    font: 16px/1.5 Arial;
+}
+
+.THIS li img {
+    float: left;
+    margin: 0 15px 0 0;
+    height: 64px;
+    width: 64px;
+    border-radius: 3px;
+}
+
+.THIS .theheading {
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 8px;
+    height: 64px;
+}
+
+.THIS li p {
+    font: 200 16px/1.5 Arial;
+}
+
+.THIS li {
+    padding: 10px;
+    margin-bottom: 10px;
+    overflow: auto;
+    background: rgba(255, 255, 255.4);
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    list-style:none;
+}
+
+.THIS li:hover {
+    cursor: pointer;
+}
